@@ -1,0 +1,32 @@
+.block1 {
+	display: block;
+	padding: 0px;
+	height: fit-content;
+	background-image: url(carpation.jpg);
+}
+
+.name {
+	text-align: center;
+	margin: -180px;
+	font-size: 50px;
+}
+
+.text {
+	text-align: center;
+	margin: 200px;
+	font-size: 25px;
+}
+
+hr {
+	width: 35%;
+}
+
+.text2 {
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	position: fixed;
+}
+
+

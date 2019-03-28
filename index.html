@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Credit Card</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="form-suma">
+		<div class="text">
+		<h5 class="total">TOTAL</h5>
+		<p>$898</p>
+		</div>
+
+		<div class="detail">
+			<h5>DETAIL</h5>
+			<h6>iPad Pro</h6>
+			<h6>Apple Pencil</h6>
+			<p class="t1">$799</p>
+			<p class="t2">$99</p>
+		</div>
+		<button id="card-btn" class="button"  type="button" onClick="refreshPage()">PAY NOW</button>
+
+		
+    </div>
+    <section class="cr-card">
+    	<form action="" name="form">
+    <div id="credit_card" class="card">
+    	<p class="card-name">Carly Ling</p>
+    	<div class = "card_name" id = "card_name">
+    	<img src="visa.png" alt="" class="logo1" id="logo1">
+    	</div>
+    	<ul class="inputs">
+    		<li>
+    			
+    			<label for="credit-card" >Credit Card Number</label>
+    			<input type="text" id="card_number" class="card_number" name="card_number" value="9842 2563 1234 5897" class="full n-input" minlength="19" maxlength="19" required>
+    		</li>
+    		<li class="expire">
+    			<label for="credit-card last">Expiration</label>
+    			<input type="text" name="expire-month-year" value="December    2019" size="21" class="c-ex"  required>
+    			
+    				<li>
+    					<li class="ccv-card last">
+    						<label for="credit-card">CCV</label>
+    						<input type="text" name="cvc-card" value="123" minlength="3" maxlength="4" class="gr-input" required>
+    					</li>
+    				</li>
+    			
+    		</li>
+    	</ul>
+    </div>
+    
+    </form>
+    </section>
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+</body>
+</html>
